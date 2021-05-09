@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Session Profile - We Where</title>
+    <link rel="icon" type="x-icon/images" href="../images/title-icon.png" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='html2canvas.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="profile.css">
+</head>
+
+<body>
+    <center>
+        <h3 style="color: red;">One time session profile view</h3>
+        <a class="btn btn-danger set" href="../index.html"><i class="fa fa-home">&nbsp;&nbsp;</i>HOME</a>      
+             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+            <br>
+            <div id="down" class="form-group"><br>
+                <h4><span id="user"></span>'s Profile</h4>
+                <br>
+                <img src="../images/user.png" class="redifire" /><span style="color: white;font-size: 20px;">X</span>
+                <img src="../images/girl.png" class="redifire" />
+                <h5>Username: <span id="user_name"></span></h5>
+                <h4>Name: <span id="name"></span></h4>
+                <h4>Email ID: <span id="email"></span></h4>
+                <h4>Password: <span id="pas"></span></h4>
+                <br>
+                <h4>Session link : <i style="color: red;" class="fa fa-link">&nbsp;&nbsp;</i><span class="btn btn-link" onclick="goTo();" id="link">meet.we.where.com/<span id="code"></span></span>
+                </h4>
+                <a onclick="create();" class="btn btn-primary">Create New Link</a>
+                <br><br>
+                <div class="btn btn-success" onclick="infoDownload();">Download your information</div>
+                <br>
+            </div>
+            <br>
+        </div>
+        <br><br>
+        <div id="output"></div>
+        <br><button class="btn btn-success" onclick="take_snapshot()">Right click and save image</button>
+        <br><br>
+        <br><br>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 issue_div">
+            <br>
+            <div class="form-group">
+                <h5>Any kind of problem causing you please reach us</h5>
+                <h5 style="background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+"><i class="fa fa-address-book">&nbsp;&nbsp;</i>Contact Details</h5>
+                <a class="btn btn-warning war" href="mailto:teamprovid@gmail.com?Subject=Issue on we.where.com &body=Regards me,"><i class="fa fa-envelope">&nbsp;&nbsp;</i>we.wehere@support.com</a>
+                <a class="btn btn-info info" href="https://twitter.com/GYANAM69216595" target="_blank"><i class="fa fa-twitter">&nbsp;&nbsp;</i>twitter</a>
+                <a class="btn btn-line suc" href="tel:7576856550/send?text=Issue causing by me on where.com"><i class="fa fa-comment">&nbsp;&nbsp;</i>WhatsApp</a>
+                <a class="btn btn-danger dan" href="https://www.instagram.com/rayhiphop_/" target="_blank"><i class="fa fa-instagram">&nbsp;&nbsp;</i>instagram</a>
+            </div>
+            <br>
+        </div>
+
+        <br><br>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 new_div">
+            <br>
+            <div class="form-group">
+                <h3>New</h3><hr>
+                <img class="img-responsive" src="../images/message.jpg" onclick="imgGoTo();"/>
+                <h5>We give you amazing <img src="../images/msg.png" class="red"> messenger for you from <img src="https://cdn3.iconfinder.com/data/icons/web-hosting-2-1/128/69-512.png" class="red" /> ProVid</h5>
+                <a style="color: white;font-size: 18px;" onclick="imgGoTo();" class="btn btn-warning">Go To Messenger</a>
+                <a style="color: white;font-size: 18px;" onclick="imgGoTo();" class="btn btn-info">Messenger Login</a>
+                <br>
+                <h5>New Message For Our Users</h5>
+                <h6>After few days we will update the video chat. This update by ProVid and Behind The Wall Pvt. Ltd (BTW owned by Gyanam Gogoi.</h6>
+                <h6>Do you want to join us just for fun in UI/UX design on our other websites.</h6>
+                <h3 class="btn con">we.where@support.com</h3>
+            </div>
+            <br>
+        </div>
+        <br>
+    </center>
+<div class="Aswghe">
+    <br>
+    <h2 class="reb"><i style="color: white;" class="fa fa-birthday-cake">&nbsp;&nbsp;</i>We Where Birthday Celebration<img src="https://img.icons8.com/emoji/48/000000/party-popper.png"/ class="party"></h2>
+    <br>
+    <h5 class="btn btn-info click"><img src="https://img.icons8.com/fluent/48/000000/party-hat-with-stars.png"/>My name is <b>Gyanam Gogoi</b><img src="https://img.icons8.com/fluent/48/000000/party-hat-with-stars.png"/></h5>
+    <h5 class="text-plain"><img src="https://img.icons8.com/emoji/48/000000/party-popper.png"/>I'm 13 year old I created this website since 4 May 2020.<img src="https://img.icons8.com/emoji/48/000000/party-popper.png"/></h5>
+    <h3 onclick="goToFacebook();" class="btn btn-warning facebook"><i style="color: blue;" class="fa fa-facebook-f">&nbsp;&nbsp;</i>See Me On WhitehatJr FaceBook Page</h3>
+    <h6 class="reb"><img src="https://img.icons8.com/color/48/000000/party-baloons.png"/>Don't forget to like, share and comment.<img src="https://img.icons8.com/color/48/000000/party-baloons.png"/></h6>
+</div>
+<br><br>
+
+    <script type="text/javascript" src="profile.js"></script>
+</body>
+
+</html>

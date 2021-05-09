@@ -1,0 +1,93 @@
+body {
+    background: #d4d5d9;
+    background-size: cover;
+}
+
+.login_div {
+    background: white;
+    float: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    border-color: #ddd;
+    border-left: 3px;
+}
+.detail_div {
+    background: rgba(135, 208, 236, 0.50);
+    float: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    border-color: #ddd;
+    border-left: 3px;
+    width: 60%;
+}
+
+.form-control {
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.btn-primary {
+    border-radius: 10px;
+    width: 100px;
+}
+
+.btn-primary:hover {
+    border-radius: 10px;
+    width: 100px;
+    background-color: #afb9fa;
+    color: blue;
+}
+
+#localVideo,
+#remoteVideo {
+    width: 550px;
+    height: 550px;
+    background: white;
+    background-image: url('images/stay.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.btn-info {
+   margin-left: -105px;
+   border: 3px solid #FFC0CB;
+   border-radius: 10px;
+}
+
+.btn-danger {
+    border-radius: 10px;
+}
+
+.reg {
+    background: blue;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 2;
+    border-radius: 10px;
+}
+
+.btn-success {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.pub {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    margin-top: 20px;
+}

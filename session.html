@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>We Where Session</title>
+	 <link rel="icon" type="x-icon/images" href="images/title-icon.png" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="whering.css">
+</head>
+<body>
+        
+<h6>Session is started...</h6>
+    <br>
+    <div class="container">
+        <a onclick="profile();" class="btn btn-info">Session Profile</a>
+            <center>
+
+                <div style="float: left;" class="col-md-4 col-sm-12 col-xs-12">
+                    <video id="localVideo" autoplay muted></video>
+                    <div style="color: blue;">(You) <span id="user"></span></div>
+                </div>
+
+                <div style="margin-left: 360px" class="col-md-4 col-sm-12 col-xs-12">
+                    <video id="remoteVideo" autoplay></video>
+                    <div style="color: blue;">Friend <span id="other"></span></div>
+                </div>
+                <br>
+            </center>
+        </div>
+
+    <center>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 detail_div">
+            <br>
+            <div class="form-group">
+                <h3>Session Details</h3>
+                <h5 class="form-control">Link: <span id="myInput"></span></h5>
+                <h5 class="text-primary">G-Where Code: <span id="code"></span></h5>
+                <h6 class="text-muted">Enter this g-where code to join a session</h6>
+                <a class="btn btn-danger">Share Above Link</a>
+            </div>
+            <br>
+        </div>
+        <br><br>
+    </center>
+    <a href="https://m.facebook.com/story.php?story_fbid=2812670305621001&id=100006341765377&sfnsn=wiwspmo" target="_blank"><img src="images/banner.JPG" class="banner"></a><br>
+
+<script type="text/javascript" src="server.js"></script>
+</body>
+</html>

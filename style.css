@@ -1,0 +1,160 @@
+body {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    background-size: cover;
+}
+
+.carousel-item active {
+    height: 900px;
+    width: 1100px;
+}
+
+.carousel-item {
+    height: auto;
+}
+
+#carousel slide {
+    margin: 180px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.plain {
+    text-align: left;
+}
+
+.repe {
+    background-image: url('images/AI2-head.jpg');
+    background-size: cover;
+    width: 60%;
+    height: 450px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.left {
+    float: left;
+}
+
+.sign{
+    margin-top: 150px;
+    border: 2px solid grey;
+}
+
+.sign:hover {
+    margin-top: 150px;
+    box-shadow: 6px 6px 6px white;
+}
+
+.pub {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.top {
+    float: right;
+    margin-right: 30px;
+    position: sticky;
+}
+
+.resi {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 10px solid lightblue;
+}
+
+.login_div {
+    background: rgba(209, 242, 255, 0.87);
+    float: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    border-color: #ddd;
+    border-left: 3px;
+}
+.new_div {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 22%, #ffffff 44%, #2bbb9a 100%);
+    float: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+    border-color: #ddd;
+    border-left: 3px;
+    width: 90%;
+}
+
+.con {
+    background: rgba(255, 199, 208, 0.87);
+    color: black;
+    cursor: default;
+}
+
+.img-responsive {
+    width: 70%;
+    height: 300px;
+    cursor: pointer;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+.red {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-success {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.btn-success:hover {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid white;
+    background: #a6ffbe;
+    color: green;
+}
+
+.btn-warning {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid white;
+    color: white;
+}
+
+.btn-warning:hover {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid white;
+    background: #fffd91;
+    color: #d67d00;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    margin-top: 20px;
+}
