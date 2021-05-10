@@ -26,12 +26,12 @@ body {
     border: 1px solid grey;
 }
 
-.btn-primary {
+.buc {
     border-radius: 10px;
     width: 100px;
 }
 
-.btn-primary:hover {
+.buc:hover {
     border-radius: 10px;
     width: 100px;
     background-color: #afb9fa;
@@ -90,4 +90,17 @@ body {
     height: 300px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.icon{
+  font-size: 18px;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+}
+
+.mad {
+    width: 30px;
+    height: 30px;
 }

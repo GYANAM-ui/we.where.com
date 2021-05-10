@@ -16,7 +16,7 @@ let pc;
 name = sessionStorage.getItem("user_name");
 document.getElementById("user").innerHTML = name;
 
-link ='https://gyanam-ui.github.io/we.where.com/session.html'+ location.hash;
+link ='https://cvugl0ctbjpcs2zz5ji33a-on.drv.tw/we.where.com/session.html'+ location.hash;
 sessionStorage.setItem("link",link);
 document.getElementById("myInput").innerHTML = link;
 document.getElementById("code").innerHTML = location.hash;
