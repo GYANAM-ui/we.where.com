@@ -51,7 +51,7 @@ body {
     float: left;
 }
 
-.sign{
+.sign {
     margin-top: 150px;
     border: 2px solid grey;
 }
@@ -88,6 +88,17 @@ body {
     border-color: #ddd;
     border-left: 3px;
 }
+
+.up_div {
+    background: rgba(192, 185, 255, 0.74);
+    float: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    border-color: rgb(255, 116, 116);
+    border-left: 3px;
+    margin-top: 50px;
+}
+
 .new_div {
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 22%, #ffffff 44%, #2bbb9a 100%);
@@ -157,4 +168,9 @@ body {
     height: 300px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.aal {
+    background: rgba(255, 176, 72, 0.712);
+    font-size: 15px;
 }

@@ -1,4 +1,6 @@
-    // Generate random room name if needed
+song = "images/bell_phone.mp3";
+
+// Generate random room name if needed
 if (!location.hash) {
     location.hash = Math.floor(Math.random() * 0xFFFFFF).toString(26);
 }
@@ -16,13 +18,13 @@ let pc;
 name = sessionStorage.getItem("user_name");
 document.getElementById("user").innerHTML = name;
 
-link ='https://cvugl0ctbjpcs2zz5ji33a-on.drv.tw/we.where.com/session.html'+ location.hash;
-sessionStorage.setItem("link",link);
+link = 'https://gyanam-ui.github.io/we.where.com/session.html' + location.hash;
+sessionStorage.setItem("link", link);
 document.getElementById("myInput").innerHTML = link;
 document.getElementById("code").innerHTML = location.hash;
 
 code = location.hash;
-sessionStorage.setItem("code",code);
+sessionStorage.setItem("code", code);
 
 function onSuccess() {};
 
@@ -88,13 +90,6 @@ function logout() {
     window.location.replace("index.html");
 }
 
-var myVar;
-
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-    document.getElementById("loading").style.display = "none";
-    document.getElementById("myDiv").style.display = "block";
+function play() {
+    song.play();
 }

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>We Where -- Join</title>
+    <title>We Where -- Join</title>
     <link rel="icon" type="x-icon/images" href="../images/title-icon.png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -11,8 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="join.css">
 </head>
+
 <body>
-	    <center>
+    <center>
         <h3 class="text-primary"></h3>
         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
             <br>
@@ -27,13 +29,15 @@
                 <br>
                 <a onclick="User()" class="btn btn-primary">Join Call</a>
             </div>
-             <br>
-             <a href="mailto:teamprovid@gmail.com?Subject=Issue on We Where &body=Regards me,"><div class="btn btn-success">Issue on login contact us</div></a>
-             <br>
-             <h5 class="text-info">Best browser to use this app</h5>
-             <img title="Google Chrome" src="../images/google.jpg" class="pub">
-             <img title="Firefox" src="../images/firefox.png" class="pub">
-             <img title="Safari apple.inc" src="../images/safari.jpg" class="pub">
+            <br>
+            <a href="mailto:teamprovid@gmail.com?Subject=Issue on We Where &body=Regards me,">
+                <div class="btn btn-success">Issue on login contact us</div>
+            </a>
+            <br>
+            <h5 class="text-info">Best browser to use this app</h5>
+            <img title="Google Chrome" src="../images/google.jpg" class="pub">
+            <img title="Firefox" src="../images/firefox.png" class="pub">
+            <img title="Safari apple.inc" src="../images/safari.jpg" class="pub">
             <br><br>
         </div>
         <br>
@@ -45,23 +49,22 @@
         <img src="https://play-lh.googleusercontent.com/25e-3_aK82aXl_rARotmEZHdzBqgv9ako4HsraEXNpkiBLnAnLmlmTq8iXPO4cztrmQ=s180" class="pub">
     </center>
 
-    <a href="https://m.facebook.com/whitehatjr/photos/a.4721799954520291/4721841927849427/?type=3&source=54" target="_blank"><img src="../images/banner.JPG" class="banner"></a><br><br>
-
     <script type="text/javascript">
         function User() {
             user_name = document.getElementById("name").value;
             code = document.getElementById("code").value;
 
-            if (user_name,code == "") {
+            if (user_name, code == "") {
                 document.getElementById("error").innerHTML = "Enter a valid name";
                 document.getElementById("error1").innerHTML = "Enter a valid g-where code";
             } else {
-                sessionStorage.setItem("user_name",user_name);
-                sessionStorage.setItem("user_code",code);
+                sessionStorage.setItem("user_name", user_name);
+                sessionStorage.setItem("user_code", code);
                 window.location = "../joined.html";
             }
         }
     </script>
 
 </body>
+
 </html>

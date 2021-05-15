@@ -1,8 +1,10 @@
 code = sessionStorage.getItem("user_code");
+username = sessionStorage.getItem("name");
 
-document.getElementById("joinFrameWork").src = "https://cvugl0ctbjpcs2zz5ji33a-on.drv.tw/we.where.com/session.html" + code;
+document.getElementById("joinFrameWork").src = "https://gyanam-ui.github.io/we.where.com/session.html" + code;
+document.getElementById("name").innerHTML = username;
 
-meetingURL = "https://cvugl0ctbjpcs2zz5ji33a-on.drv.tw/we.where.com/session.html" + code;
+meetingURL = "https://gyanam-ui.github.io/we.where.com/session.html" + code;
 
 document.getElementById("display_code").innerHTML = code;
 document.getElementById("display_URL").innerHTML = meetingURL;

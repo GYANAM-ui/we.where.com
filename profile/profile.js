@@ -18,22 +18,22 @@ function goTo() {
 }
 
 function create() {
-    location.href = "../../we.where.com/whering.html";
+    location.href = "../../whering.html";
 }
 
 function imgGoTo() {
-	location.href = "https://7p08exzifrh9lahkvluqja-on.drv.tw/PROVID%20MEET/kwitter.html";
+    location.href = "https://7p08exzifrh9lahkvluqja-on.drv.tw/PROVID%20MEET/kwitter.html";
 }
 
 function goToFacebook() {
-	location.href = "https://m.facebook.com/story.php?story_fbid=2812670305621001&id=100006341765377&sfnsn=wiwspmo";
+    location.href = "https://m.facebook.com/story.php?story_fbid=2812670305621001&id=100006341765377&sfnsn=wiwspmo";
 }
 
 function infoDownload() {
     let div =
-    document.getElementById('down');
+        document.getElementById('down');
     html2canvas(div).then(
-    function (canvas) {
-    document.getElementById('output').appendChild(canvas);
-    })
+        function(canvas) {
+            document.getElementById('output').appendChild(canvas);
+        })
 }

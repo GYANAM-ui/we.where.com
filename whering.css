@@ -3,14 +3,19 @@ body {
     background-size: cover;
 }
 
+#background {
+    background: rgb(228, 246, 255);
+}
+
 .login_div {
     background: white;
     float: none;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 5px 5px 5px grey;
     border-color: #ddd;
     border-left: 3px;
 }
+
 .detail_div {
     background: rgba(135, 208, 236, 0.50);
     float: none;
@@ -38,12 +43,22 @@ body {
     color: blue;
 }
 
+.cac {
+    background: #fcb3bf;
+    color: white;
+}
+
+.cac:hover {
+    background: #fcb3bf;
+    color: white;
+}
+
 #localVideo,
 #remoteVideo {
     width: 550px;
     height: 550px;
     background: white;
-    background-image: url('images/stay.png');
+    background-image: url('images/newLoad.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -54,9 +69,9 @@ body {
 }
 
 .btn-info {
-   margin-left: -105px;
-   border: 3px solid #FFC0CB;
-   border-radius: 10px;
+    margin-left: -105px;
+    border: 3px solid #FFC0CB;
+    border-radius: 10px;
 }
 
 .btn-danger {
@@ -92,15 +107,20 @@ body {
     margin-top: 20px;
 }
 
-.icon{
-  font-size: 18px;
-  border-radius: 30px;
-  position: fixed;
-  bottom: 30px;
-  right: 40px;
+.icon {
+    font-size: 18px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
 }
 
 .mad {
     width: 30px;
     height: 30px;
+}
+
+#cancel:hover {
+    background: rgba(255, 162, 162, 0.747);
+    color: red;
 }
