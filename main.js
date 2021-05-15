@@ -17,3 +17,7 @@ function getJoin() {
 $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
+
+function brow() {
+    window.location = "profile/brow.html"
+}
