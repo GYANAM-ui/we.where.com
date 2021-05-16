@@ -4,16 +4,20 @@ body {
 }
 
 #background {
-    background: rgb(228, 246, 255);
+    background: rgb(231, 250, 236);
 }
 
 .login_div {
-    background: white;
+    background: rgb(255, 255, 255);
     float: none;
     border-radius: 5px;
     box-shadow: 5px 5px 5px grey;
     border-color: #ddd;
     border-left: 3px;
+}
+
+#fo {
+    border-radius: 10px;
 }
 
 .detail_div {
@@ -55,14 +59,13 @@ body {
 
 #localVideo,
 #remoteVideo {
-    width: 550px;
-    height: 550px;
-    background: white;
+    width: 350px;
+    height: 350px;
+    background: rgb(197, 197, 197);
     background-image: url('images/newLoad.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin: 0 5%;
     box-sizing: border-box;
     border-radius: 10px;
     padding: 0;

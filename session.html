@@ -40,12 +40,12 @@
         <a onclick="profile();" class="btn btn-info"><img src="https://img.icons8.com/doodle/50/26e07f/name.png" />Session Profile</a>
         <center>
 
-            <div style="float: left;" class="col-md-4 col-sm-12 col-xs-12">
+            <div style="float: left;margin-left: 10px;" class="col-md-4 col-sm-12 col-xs-12">
                 <video id="localVideo" autoplay muted></video>
                 <div style="color: blue;">(You) <span id="user"></span></div>
             </div>
 
-            <div style="margin-left: 360px" class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-12 col-xs-12">
                 <video id="remoteVideo" autoplay></video>
                 <div style="color: blue;">Friend <span id="other"></span></div>
             </div>
@@ -58,7 +58,7 @@
             <br>
             <div class="form-group">
                 <h3>Session Details</h3>
-                <h5 class="form-control">Link: <span id="myInput"></span></h5>
+                <h5 class="form-control" id="fo">Link: <span id="myInput"></span></h5>
                 <h5 class="text-primary">G-Where Code: <span id="code"></span></h5>
                 <h6 class="text-muted">Enter this g-where code to join a session</h6>
                 <a class="btn btn-danger">Share Above Link</a>

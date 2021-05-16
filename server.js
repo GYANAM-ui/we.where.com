@@ -93,3 +93,7 @@ function logout() {
 function play() {
     song.play();
 }
+
+function back() {
+    window.location = "whering.html";
+}
