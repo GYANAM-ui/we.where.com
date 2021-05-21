@@ -1,7 +1,7 @@
 <html lang="en">
 
 <head>
-    <title>We Where-Login</title>
+    <title>ProVido We Where-Login</title>
     <link rel="icon" type="x-icon/images" href="images/title-icon.png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -9,6 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="whering.css">
+    <script type="text/javascript" src="/scripts/script.js"></script>
     <!-- Smartsupp Live Chat script -->
     <script type="text/javascript">
         var _smartsupp = _smartsupp || {};
@@ -32,7 +33,16 @@
 <body>
     <center>
 
-        <h3 class="text-primary"></h3>
+        <div style="display: none;" id="msg_er_div" class="col-lg-4 col-md-6 col-sm-6 col-xs-11 msg_error">
+            <br>
+            <div class="form-group">
+                <h4><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqNv5y1gu-eoMMCmuhM3jSa9JytL47HPtmsA&usqp=CAU">Sorry, there was a problem.</h4>
+                <span>You'll find more details highlighted below.</span>
+            </div>
+            <br>
+        </div>
+        <br><br>
+
         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
             <br>
             <div class="form-group">
@@ -42,16 +52,19 @@
                 <span style="color: red;text-align: left;" id="error"></span><br>
                 <label>Enter Your Email : </label>
                 <input type="Email" id="email" class="form-control" placeholder="Enter your email">
-                <span style="color: red;text-align: left;" id="error"></span><br>
+                <span style="color: red;text-align: left;" id="er1"></span><br>
                 <label>Enter Password : </label>
                 <input type="password" id="password" class="form-control" placeholder="Password">
-                <span style="color: red;text-align: left;" id="error"></span>
+                <span style="color: red;text-align: left;" id="er2"></span>
                 <br>
                 <a onclick="User()" class="btn btn-primary buc">Login</a>
                 <a onclick="noth();" class="btn btn-danger" id="cancel">Not I'm ready</a>
             </div>
             <a href="mailto:teamprovid@gmail.com?Subject=Issue on We Where &body=Regards me,">
                 <div onclick="issue();" class="reg">Issue on login contact us</div>
+            </a>
+            <a target="_blank" href="https://7p08exzifrh9lahkvluqja-on.drv.tw/www.provido.com/web/live-demo/login.html">
+                <div class="confee">ProVido Video Conference</div>
             </a>
             <br>
             <a href="https://7p08exzifrh9lahkvluqja-on.drv.tw/PROVID%20MEETI/kwitter.html" target="_blank" class="btn cac"><img src="https://img.icons8.com/color/50/000000/chat--v1.png"> Private Messenger</a>
@@ -74,35 +87,6 @@
         <br><br>
     </center>
 
-    <script type="text/javascript">
-        function User() {
-            user_name = document.getElementById("name").value;
-            user_email = document.getElementById("email").value;
-            user_pass = document.getElementById("password").value;
-
-            if (user_name == "") {
-                document.getElementById("error").innerHTML = "Enter a valid name";
-            } else {
-                sessionStorage.setItem("user_name", user_name);
-                sessionStorage.setItem("user_email", user_email);
-                sessionStorage.setItem("user_pass", user_pass);
-                window.location = "session.html";
-            }
-        }
-
-        function navD() {
-            window.alert("There not download your information in the session you can see session profile click there and you can see there Download information button click them and download the info image.");
-        }
-
-        function issue() {
-            location.href = "";
-        }
-
-        function noth() {
-            window.alert("Are you sure you leave this page.");
-            window.location = "index.html";
-        }
-    </script>
 </body>
 
 </html>
